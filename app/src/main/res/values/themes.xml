@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Ativ_somativ_2"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Theme.Ativ_somativ_2"
+        parent="Base.Theme.Ativ_somativ_2">
+
+        <item name="android:windowBackground">@color/blue_grey</item>
+
+    </style>
+
+    <style name="RoundedImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+</resources>

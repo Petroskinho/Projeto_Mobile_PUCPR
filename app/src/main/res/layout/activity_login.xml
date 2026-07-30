@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_grey">
+
+
+    <LinearLayout
+        android:id="@+id/cardLogin"
+        android:layout_width="368dp"
+        android:layout_height="421dp"
+        android:layout_margin="24dp"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical"
+        android:padding="24dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/helvetica_bold"
+            android:text="LOGIN"
+            android:textColor="@color/white_grey"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/helvetica"
+            android:text="Faça login para continuar"
+            android:textColor="@color/white_grey"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="32dp"
+            android:background="#91adc9"
+            android:fontFamily="@font/helvetica"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editSenha"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:background="#91adc9"
+            android:fontFamily="@font/helvetica"
+            android:hint="Senha"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:text="Esqueci minha senha"
+            android:textColor="#2196F3" />
+
+        <Button
+            android:id="@+id/btnEntrar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:text="Entrar"
+            app:backgroundTint="@color/green" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="135dp"
+        android:layout_height="88dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whatsapp_image_2026_06_09_at_22_40_19_photoroom" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

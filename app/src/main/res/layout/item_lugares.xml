@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card"
+    android:padding="12dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgLugar"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clique para Editar ou segure para excluir" />
+
+    <TextView
+        android:id="@+id/txtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/helvetica"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+</LinearLayout>
